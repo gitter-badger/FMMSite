@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+  <meta content="Search active League of Legends games, inspect profiles and read
+  articles posted by our team of highly ranked writers." name="description"></meta>
+  <meta content="league of legends, lol, blogs, vlogs, champions, summoner stats, lol,
+full man mode, Fullmanmode, search active lol games" name="keywords"></meta>
+<meta name="veiwport" content="width=device-width", intial-scale=1.0, user-scalable=yes">
+  <title>Full Man Mode - Match History</title>
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="icon" type="image/ico" href="favicon.ico">
+
+</head>
+<body link="#FFFFFF" alink="#FFFFFF" vlink="#FFFFFF">
+  <div class="topBar">
+  <ul class="menu">
+    <li><a href="http://www.fullmanmode.com" ><b>Home</b></a></li>
+    <li><a href="http://www.fullmanmode.com/manifesto" ><b>Manifesto</b></a></li>
+    <li><b>Blogs</b></li>
+    <li><b>Articles</b></li>
+<li><b>Champion Info</b></li>
+  <li><b><a href="http://www.fullmanmode.com/ranked-stats.html">Summoner Profile</a></b></li>
+  <li><b><a href="http://www.fullmanmode.com/match-history.html">Match History</a></b></li>
+    <li><b>Active Game Search</b></li>
+    <li></li>
+    <li></li>
+  <li class="sumLook"><form action=""><select name="region"><option value="euw">EUW</option><option value="na">NA</option><option value="eune">EUN+E</option></select></form><input id="summoner" /><input type="submit" onclick="summonerLookUp();" value="Search Summoner" />
+  </li>
+
+
+  </ul>
+</div>
+
+<div id="container">
+
+  <div id="allContent">
+
+<h1 align= 'center'>Full Man Mode - Coming Soon</h1>
+<br />
+<h2 align='center'>Rule the Rift!</h2>
+    <br />
+    <br />
+
+    <p align='center'>
+      Summoner Name: <span id='name'> </span>
+      <br />
+      Summoner Level: <span id='sLevel'>
+    </span>
+    <br />
+    Summoner ID: <span id='sID'></span>
+    <br />
+    Number of matches: <span id="noOfMatches"></span>
+    <br />
+    Region: <span id="region1"></span>
+
+    <br />
+    </p>
+    <p align='center'>
+      <br />
+
+
+  </div>
+    </div>
+    <script src="mhapp.js"></script>
+    <script src="jquery-1.11.1.min.js"></script>
+</body>
+</html>

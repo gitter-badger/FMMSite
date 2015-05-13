@@ -1,0 +1,403 @@
+
+/* General */
+
+#allContent{
+	padding-top: 50px;
+position: relative;
+
+margin: 0px auto;
+min-width: 1220px;
+color: #FFFFFF;
+background-color: #222;
+background-attachment: scroll;
+background-size: auto auto;
+background-position: 0% 0%;
+min-height: 100%;
+height: auto;
+
+}
+.topBarList{
+	list-style:none;
+	display:inline;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+.topBar > li{
+	list-style: none;
+ display:inline;
+	color: #FFFFFF;
+	z-index: 4001;
+}
+.topBar{
+height: 40px;
+color: #FFFFFF;
+font-weight: 300;
+position: absolute;
+z-index:4000;
+padding-right:10px;
+right:0px;
+top:0px;
+left: 0px;
+white-space:nowrap;
+min-width: 1920px;
+
+box-shadow: 0px 0px 5px #000;
+background-color: #343434;
+background-position: 0% 0%;
+
+}
+
+#container{
+width: 1220px;
+position: relative;
+padding-bottom: 0px;
+box-shadow: 0pt 0pt 5px #000;
+margin: 0px auto;
+
+}
+body{
+background-color: #111;
+min-height: 100%;
+height: auto;
+font-family: 'Open Sans', sans-serif;
+}
+/* Header */
+.header{
+background-color: #F1F1F1;
+border-bottom: 1px solid #ddd;
+font-family: 'Nunito', sans-serif;
+font-weight: 300;
+font-size: 19px;
+padding: 7px;
+padding-left: 100px;
+position:fixed;
+z-index: 10;
+height:60px;
+
+}
+.sumLook {
+padding-right: 5px;
+padding-left: 5px;
+	color: #000000;
+}
+.sumLook > form{
+	display:inline;
+}
+
+/* Menu */
+.header .menu {
+float: right;
+list-style: none;
+margin-top: 15px;
+
+}
+
+.menu > li {
+display: inline;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.menu a{
+color: #FFFFFF;
+
+}
+
+.Logoicon{
+position:fixed;
+float:left;
+margin-top: -10px;
+margin-left:-70px;
+
+z-index: 10;
+}
+/* Dropdown */
+
+.dropdown-menu {
+font-size: 16px;
+margin-top: 5px;
+min-width: 105px;
+}
+
+.dropdown-menu l1 a {
+color: #898989;
+padding: 6px 20px;
+font-weight: 300;
+}
+
+/* Carousel */
+.slider {
+position: relative;
+width: 100%;
+background-color: #FFFFFF;
+height: 600px;
+border-bottom: 1px solid #ddd;
+}
+
+.slide {
+background: transparent url('http
+://s3.amazonaws.com/codecademy-content
+/courses/ltp2/img/flipboard/feature
+-gradient-transparent.png') center
+center no-repeat;
+background-size: cover;
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.active-slide{
+display: block;
+}
+
+.slide-copy h1{
+color: #000000;
+font-family: 'Nunito', sans-serif;
+font-weight: 400;
+font-size: 40px;
+margin-top: 105px;
+margin-bottom: 0px;
+}
+
+.slide-copy h2{
+color: #000000;
+font-family: 'Nunito', sans-serif;
+font-weight: 400;
+font-size: 40px;
+margin: 5px;
+}
+
+.slide-copy p{
+color: #000000;
+font-family:  'Nunito', sans-serif;
+font-size: 1.15em;
+line-height: 1.75em;
+margin-bottom: 15px;
+margin-top: 16px;
+}
+
+.slide-img {
+text-align: right;
+}
+
+.slideimg1{
+	padding-top: 70px;
+
+	text-align: left;
+}
+.slideimg3{
+	padding-top: 45px;
+
+}
+.slideimg4 {
+
+	padding-top: 70px;
+}
+
+.slide1text {
+	text-align: right;
+}
+
+.slide1text p{
+	color: #000000;
+font-family:  'Nunito', sans-serif;
+font-size: 1.15em;
+line-height: 1.75em;
+margin-bottom: 15px;
+margin-top: 16px;
+
+}
+
+.slide1text h1{
+	color: #000000;
+font-family: 'Nunito', sans-serif;
+font-weight: 400;
+font-size: 40px;
+margin-top: 105px;
+margin-bottom: 0px;
+
+}
+
+.slide1text h2{
+	color: #000000;
+font-family: 'Nunito', sans-serif;
+font-weight: 400;
+font-size: 40px;
+margin: 5px;
+
+}
+/* Slide feature */
+
+.slide-feature {
+text-align: center;
+background-image: url('http://s3
+.amazonaws.com/codecademy-content
+/courses/ltp2/img/flipboard/ac.png');
+height: 470px;
+}
+
+.slide-feature img {
+margin-top: 112px;
+margin-bottom: 28px;
+}
+
+.slide-feature a {
+display: block;
+color: #6fc5e0;
+font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
+font-family: 'Nunito', sans-serif;
+font-weight: 400;
+font-size: 20px;
+}
+
+.slider-nav {
+text-align: center;
+margin-top: 10px;
+
+background-color: #F1F1F1;
+}
+
+.arrow-prev {
+position: relative;
+
+
+
+margin-top: -400px;
+float: left;
+margin-left: 40px;
+
+display: inline-block;
+vertical-align: top;
+}
+
+.arrow-next {
+position: relative;
+margin-top: -400px;
+float: right;
+margin-right: 40px;
+
+
+display: inline-block;
+vertical-align: top;
+/*margin-top: 9px;*/
+}
+
+.slider-dots {
+list-style: none;
+right: 300px;
+display: inline-block;
+vertical-align: middle;
+padding-left: 0;
+margin-bottom: 0;
+}
+
+.slider-dots li{
+color: #bbbcbc;
+display: inline;
+font-size: 30px;
+margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+color: #363636;
+}
+
+/* App Links */
+
+.get-app {
+list-style: none;
+padding-bottom: 9px;
+padding-left: 0px;
+padding-top: 9px;
+}
+
+.get-app li {
+float: left;
+margin-bottom: 5px;
+margin-right: 5px;
+}
+
+.get-app img {
+height: 40px;
+}
+
+/* Page Content */
+.PageContent {
+
+font-family: 'Nunito', sans-serif;
+background-color: #FFFFFF;
+position: relative;
+padding-top:70px;
+
+}
+.PageContent-2{
+font-family: 'Nunito', sans-serif;
+background-color: #FFFFFF;
+position: relative;
+height: 1000px;
+padding-left:40px;
+padding-top:70px;
+
+
+
+}
+#pageContentStaff{
+padding-top: 70px;
+background-color: #FFFFFF;
+}
+#pageContentDev{
+	padding-top: 70px;
+	background-color: #FFFFFF;
+}
+
+.footer_text {
+	font-family: 'Nunito', sans-serif;
+
+	color: #000000;
+	font-size: 12px;
+}
+
+.staff-table {
+	text-align: center;
+	display: block;
+	width: 400px;
+padding-left: 860px auto;
+	position:relative;
+
+}
+#container-dev {
+text-align: center;
+vertical-align: middle;
+	width:600px;
+	margin-left: 400px;
+
+	position: relative;
+
+}
+.panel-heading{
+
+	text-align: center;
+	position: relative;
+	width:600px;
+
+}
+
+table tr td {
+
+	border: 1px solid black;
+}
+
+.footer-current {
+
+	background-color: #F1F1F1;
+}
+
+/* Footer */
+
+/* Staff.html */
+
+/* development.html */
