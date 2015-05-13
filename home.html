@@ -1,39 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <meta name="Description" content="Search active League of Legends games, inspect profiles and read
-  articles posted by our team of highly ranked writers."></meta>
-  <meta name="league of legends, lol, blogs, vlogs, champions, summoner stats, lol,
-full man mode, Fullmanmode, search active lol games, free champion rotation, fmm,
-season 5" name="keywords"></meta>
-<meta name="veiwport" content="width=device-width", intial-scale=1.0, user-scalable=yes">
-  <title>Full Man Mode</title>
-  <link href="bootstrap.min.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link rel="icon" type="image/ico" href="favicon.ico">
+    <meta name="Description" content="Search active League of Legends games, inspect profiles and read
+    articles posted by our team of highly ranked writers."/>
+    <meta name="keywords" content="league of legends, lol, blogs, vlogs, champions, summoner stats, lol,
+    full man mode, Fullmanmode, search active lol games, free champion rotation, fmm,
+    season 5"  />
+    <meta name="veiwport" content="width=device-width" intial-scale=1.0 user-scalable="yes">
+    <title>Full Man Mode</title>
+    <!-- Stylesheet declarations -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet">
+        <link rel="icon" type="image/ico" href="favicon.ico">
+    <!-- Script declarations -->
+        <script src="jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="app.js"></script>
 </head>
-<body link="#FFFFFF" alink="#FFFFFF" vlink="#FFFFFF">
-  <?php include_once("analyticstracking.php") ?>
-  <div class="topBar">
-  <ul class="menu">
-<li></li>
-    <li><a href="http://www.fullmanmode.com" ><b>Home</b></a></li>
-    <li><a href="http://www.fullmanmode.com/manifesto" ><b>Manifesto</b></a></li>
-    <li><a href="http://www.fullmanmode.com/blogs.html"><b>Blogs</b></a></li>
-    <li><b>Articles</b></li>
-    <li><b>Champion Info</b></li>
-    <li><b><a href="http://www.fullmanmode.com/ranked-stats.html">Summoner Profile</a></b></li>
-    <li><b><a href="http://www.fullmanmode.com/match-history.html">Match History</a></b></li>
-    <li><b>Active Game Search</b></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  <li class="sumLook"><form action=""><select name="region"><option value="euw">EUW</option><option value="na">NA</option><option value="eune">EUN+E</option></select></form><input id="summoner" /><input type="submit" onclick="summonerLookUp();" value="Search Summoner" />
-  </li>
-
-
-  </ul>
+    <body>
+        <div class="topBar">
+            <ul class="menu">
+                <li><a href="http://www.fullmanmode.com" ><b>Home</b></a></li>
+                <li><a href="http://www.fullmanmode.com/manifesto" ><b>Manifesto</b></a></li>
+                <li><a href="http://www.fullmanmode.com/blogs.html"><b>Blogs</b></a></li>
+                <li><b>Articles</b></li>
+                <li><b>Champion Info</b></li>
+                <li><b><a href="http://www.fullmanmode.com/ranked-stats.html">Summoner Profile</a></b></li>
+                <li><b><a href="http://www.fullmanmode.com/match-history.html">Match History</a></b></li>
+                <li><b>Active Game Search</b></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li class="sumLook"><form action=""><select name="region"><option value="euw">EUW</option><option value="na">NA</option><option value="eune">EUN+E</option></select></form><input id="summoner" /><input type="submit" onclick="summonerLookUp();" value="Search Summoner" />
+                </li>
+            </ul>
 </div>
 
 <div id="container">
@@ -93,8 +93,7 @@ season 5" name="keywords"></meta>
   </div>
   <br />
   <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-1" align="center">Cassiopeia</div>
+    <div class="col-md-1 col-md-offset-1" align="center">Cassiopeia</div>
     <div class="col-md-1" align="center">Karthus</div>
     <div class="col-md-1" align="center">Malphite</div>
     <div class="col-md-1" align="center">Nami</div>
@@ -104,7 +103,6 @@ season 5" name="keywords"></meta>
     <div class="col-md-1" align="center">Udyr</div>
     <div class="col-md-1" align="center">Urgot</div>
     <div class="col-md-1" align="center">Zyra</div>
-    <div class="col-md-1"></div>
   </div>
   <div class="row">
     <div class="col-md-1"></div>
