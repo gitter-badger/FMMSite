@@ -17,7 +17,8 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="app.js"></script>
 </head>
-    <body>
+<body>
+        <!-- Header Content -->
         <div class="topBar">
             <ul class="menu">
                 <li><a href="http://www.fullmanmode.com" ><b>Home</b></a></li>
@@ -28,80 +29,76 @@
                 <li><b><a href="http://www.fullmanmode.com/ranked-stats.html">Summoner Profile</a></b></li>
                 <li><b><a href="http://www.fullmanmode.com/match-history.html">Match History</a></b></li>
                 <li><b>Active Game Search</b></li>
-                <li></li>
-                <li></li>
-                <li></li>
                 <li class="sumLook"><form action=""><select name="region"><option value="euw">EUW</option><option value="na">NA</option><option value="eune">EUN+E</option></select></form><input id="summoner" /><input type="submit" onclick="summonerLookUp();" value="Search Summoner" />
                 </li>
             </ul>
-</div>
+        </div>
+        <!-- Main Content -->
+        <div id="container-fluid">
+          <div id="allContent">
+              <div class="titles" style="text-align: center;">
+                <h1>Full Man Mode - Alpha</h1>
+                <h2>Rule the Rift!</h2>
+              </div> 
+        <div class="row" style="padding-bottom: 30px;">
+          <div class="col-lg-6">
+            <h2>New SoloQ Tier list blog!</h2>
+            Check out the latest blog entry on SoloQ tier list!<br />
+            <a href="http://www.fullmanmode.com/blogs.html" style="text-align:center">Click here!</a><br />
+        4.21 patch update landed today - Tier list blog coming soon...                                                           
+          </div>
+          <div class="col-lg-6" style="text-align:center;">
+            <p>
+              <h2>Summoner Information</h2>
+              <img src="dragontail-4.20.1/4.20.1/img/profileicon/589.png" height="24px" width="24px" />Summoner Name: <span id='name'> </span>
+              <br />
+            <img src="dragontail-4.20.1/4.20.1/img/profileicon/722.png" height="24px" width="24px" />  Summoner Level: <span id='sLevel'>
+            </span>
+            <br />
+            Summoner ID: <span id='sID'></span>
+            <br />
+            Number of mastery pages: <span id='masteryPageCount'></span>
+            <br />
+          <img src="dragontail-4.20.1/4.20.1/img/mastery/4353.png" height="24px" width="24px" />List of mastery pages: <span id="masteryPagesAll"></span>
+            <br />
+            Number of rune pages: <span id='runePageCount'></span>
+            <br />
+            <img src="dragontail-4.20.1/4.20.1/img/rune/8006.png" height="24px" width="24px" />List of rune pages: <span id='runePagesAll'></span>
+            <br />
+            game info:
+            </p>
 
-<div id="container">
+            </div>
+          </div>
+          <div class="row" style="text-align:center;">
+              <h2><strong>Free Champion Rotation</strong></h2>
+          </div>
+          <br />
+          <div class="row" style="text-align: center;">
+            <div class="col-lg-1 col-lg-offset-1">Cassiopeia</div>
+            <div class="col-lg-1">Karthus</div>
+            <div class="col-lg-1">Malphite</div>
+            <div class="col-lg-1">Nami</div>
+            <div class="col-lg-1">Nasus</div>
+            <div class="col-lg-1">Pantheon</div>
+            <div class="col-lg-1">Quinn</div>
+            <div class="col-lg-1">Udyr</div>
+            <div class="col-lg-1">Urgot</div>
+            <div class="col-lg-1">Zyra</div>
+          </div>
+          <div class="row" style="padding-bottom: 30px;">
+            <div class="col-lg-1 "><img src="dragontail-4.20.1/4.20.1/img/champion/Cassiopeia.png" height="75px" width="75px" /></div>
+            <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Karthus.png" height="75px" width="75px" /></div>
+            <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Malphite.png" height="75px" width="75px" /></div>
+            <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Nami.png" height="75px" width="75px" /></div>
+            <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Nasus.png" height="75px" width="75px" /></div>
+            <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Pantheon.png" height="75px" width="75px" /></div>
+            <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Quinn.png" height="75px" width="75px" /></div>
+            <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Udyr.png" height="75px" width="75px" /></div>
+            <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Urgot.png" height="75px" width="75px" /></div>
+            <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Zyra.png" height="75px" width="75px" /></div>
 
-  <div id="allContent">
-      <div class="titles" style="text-align: center;">
-        <h1>Full Man Mode - Alpha</h1>
-        <h2>Rule the Rift!</h2>
-      </div> 
-<div class="row" style="padding-bottom: 30px;">
-  <div class="col-md-6">
-    <h2>New SoloQ Tier list blog!</h2>
-    Check out the latest blog entry on SoloQ tier list!<br />
-    <a href="http://www.fullmanmode.com/blogs.html" align="center">Click here!</a><br />
-4.21 patch update landed today - Tier list blog coming soon...                                                           
-  </div>
-  <div class="col-md-6">
-    <p align="center">
-      <h2>Summoner Information</h2>
-      <img src="dragontail-4.20.1/4.20.1/img/profileicon/589.png" height="24px" width="24px" />Summoner Name: <span id='name'> </span>
-      <br />
-    <img src="dragontail-4.20.1/4.20.1/img/profileicon/722.png" height="24px" width="24px" />  Summoner Level: <span id='sLevel'>
-    </span>
-    <br />
-    Summoner ID: <span id='sID'></span>
-    <br />
-    Number of mastery pages: <span id='masteryPageCount'></span>
-    <br />
-  <img src="dragontail-4.20.1/4.20.1/img/mastery/4353.png" height="24px" width="24px" />List of mastery pages: <span id="masteryPagesAll"></span>
-    <br />
-    Number of rune pages: <span id='runePageCount'></span>
-    <br />
-    <img src="dragontail-4.20.1/4.20.1/img/rune/8006.png" height="24px" width="24px" />List of rune pages: <span id='runePagesAll'></span>
-    <br />
-    game info:
-    </p>
-
-    </div>
-  </div>
-  <div class="row" style="text-align:center;">
-      <h2><strong>Free Champion Rotation</strong></h2>
-  </div>
-  <br />
-  <div class="row">
-    <div class="col-lg-1 col-lg-offset-1" align="center">Cassiopeia</div>
-    <div class="col-lg-1" align="center">Karthus</div>
-    <div class="col-lg-1" align="center">Malphite</div>
-    <div class="col-lg-1" align="center">Nami</div>
-    <div class="col-lg-1" align="center">Nasus</div>
-    <div class="col-lg-1" align="center">Pantheon</div>
-    <div class="col-lg-1" align="center">Quinn</div>
-    <div class="col-lg-1" align="center">Udyr</div>
-    <div class="col-lg-1" align="center">Urgot</div>
-    <div class="col-lg-1" align="center">Zyra</div>
-  </div>
-  <div class="row" style="padding-bottom: 30px;">
-    <div class="col-md-1 "><img src="dragontail-4.20.1/4.20.1/img/champion/Cassiopeia.png" height="75px" width="75px" /></div>
-    <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Karthus.png" height="75px" width="75px" /></div>
-    <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Malphite.png" height="75px" width="75px" /></div>
-    <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Nami.png" height="75px" width="75px" /></div>
-    <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Nasus.png" height="75px" width="75px" /></div>
-    <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Pantheon.png" height="75px" width="75px" /></div>
-    <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Quinn.png" height="75px" width="75px" /></div>
-    <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Udyr.png" height="75px" width="75px" /></div>
-    <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Urgot.png" height="75px" width="75px" /></div>
-    <div class="col-lg-1"><img src="dragontail-4.20.1/4.20.1/img/champion/Zyra.png" height="75px" width="75px" /></div>
-
-  </div>
+          </div>
 
   <p style="text-align:center">
       Check back soon for the Full Man Mode website!<br/>
