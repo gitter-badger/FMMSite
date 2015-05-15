@@ -1,4 +1,6 @@
 # FMMSite
+
+[![Join the chat at https://gitter.im/Simonwtaylor/FMMSite](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Simonwtaylor/FMMSite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Main full man mode project 
 
 High Priority:
